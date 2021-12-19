@@ -1,7 +1,4 @@
-
-
-
-import {FaTimes} from 'react-icons/fa'
+import {FaTimes} from 'react-icons/fa'  //button icon import from package of npm
 
 const Task = ({task, onDelete, onToggle}) => {
     return (
@@ -18,4 +15,4 @@ const Task = ({task, onDelete, onToggle}) => {
     )
 }
 
-export default Task
+export default Task  //default exports

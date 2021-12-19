@@ -1,7 +1,3 @@
-
-
-
-
 import PropTypes from 'prop-types'
 
 
@@ -15,13 +11,15 @@ const Button = ({color,text,onClick}) => {
         </button>
 
     )
-        
-    
 }
+
+//default props
 
 Button.defaultProps={
     color:'steelblue'
 }
+
+// we can defined type of props we want
 
 Button.propTypes={
     text:PropTypes.string,

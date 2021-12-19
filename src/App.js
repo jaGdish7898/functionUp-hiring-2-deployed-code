@@ -24,7 +24,8 @@ function App() {
 
     },[])
 
-      // data fetched from local db
+      // 1)data fetched from local dataBase
+
     const fetchTasks=async () =>{
       const res=await fetch('http://localhost:5000/tasks')
       const data=await res.json()
@@ -37,7 +38,7 @@ function App() {
       return data
     }
 
-  //add new task
+  //2) add new task
   const addTask=async (task) => {
 
     const res =await fetch ('http://localhost:5000/tasks',{
@@ -56,7 +57,7 @@ function App() {
     // setTasks([...tasks,newTask])
   }
 
-  //Delete Task
+  // 3)Delete Task
   const deleteTask=async(id)=>{
     await fetch(`http://localhost:5000/tasks/${id}`,{
       method:'DELETE',

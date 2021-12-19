@@ -1,8 +1,12 @@
+//this is the enetry point of React
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+//rendor (what to show,where to show)
 
 ReactDOM.render(
   <React.StrictMode>

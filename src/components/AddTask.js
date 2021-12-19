@@ -1,8 +1,11 @@
 import { useState } from 'react'
 
+//importing use state for setting initial count
+// and to update initial value by using function in it
+
 const AddTask = ({onAdd}) => {
 
-    const [text,setText]=useState('')
+    const [text,setText]=useState('')      //setText()==function
     const [day,setDay]=useState('')
     const [reminder,setReminder]=useState(false)
 

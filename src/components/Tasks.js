@@ -1,7 +1,6 @@
-
 import Task from './Task'
 
-const Tasks = ({tasks, onDelete, onToggle}) => {
+const Tasks = ({tasks, onDelete, onToggle}) => {  //accepting props as arguments
     return (
         <>
 
@@ -14,5 +13,5 @@ const Tasks = ({tasks, onDelete, onToggle}) => {
     )
 }
 
-export default Tasks
+export default Tasks  //default exports
 
